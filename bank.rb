@@ -1,26 +1,27 @@
 class Bank
-  @customer_data = []
-  @account_data = []
 
-  def get_customer_data
-    customer_file = File.open(File.dirname(__FILE__) + '/data/customer.txt', 'r') do |line|
-      line.each do |record|
-        recordc = record.chomp
-        @customer_data.append(recordc.split("_"))
-      end
-    end
+  def initialize
+    @customer_data = []
+    @account_data = []
   end
 
-  def get_account_data
-    account_file = File.open(File.dirname(__FILE__) + '/data/account.txt', 'r') do |line|
-      line.each do |record|
-        recordc = record.chomp
-        @account_data.append(recordc.split("_"))
-      end
+  def customer_filler
+  customer_file = File.open(File.dirname(__FILE__) + '/data/customer.txt', 'r') do |line|
+    line.each do |record|
+      recordc = record.chomp
+      @customer_data.append(recordc.split("_"))
     end
   end
-  #p @customer_data
-  #p @account_data
+  end
+
+  def account_filler
+  account_file = File.open(File.dirname(__FILE__) + '/data/account.txt', 'r') do |line|
+    line.each do |record|
+      recordc = record.chomp
+      @account_data.append(recordc.split("_"))
+    end
+  end
+  end
 end
 
 class Customer < Bank
@@ -186,4 +187,3 @@ end
 
 
 #Bank
-
