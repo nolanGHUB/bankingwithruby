@@ -1,1 +1,5 @@
-9000 1000 John Doe 103-96-3241
+1_10_checking_300_Jan 31, 2020 5:00 PM
+1_11_savings_3000_Jan 29, 2020 3:12 AM
+2_20_checking_450_Jan 1, 2020 6:12 PM
+3_30_savings_321_Dec 9, 2019 8:39 PM
+3_31_checking_3928_Jan 30, 2020 9:39 AM
