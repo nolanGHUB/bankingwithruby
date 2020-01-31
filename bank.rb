@@ -19,19 +19,23 @@ class Bank
       end
     end
   end
-  #p @customer_data
-  #p @account_data
+
+  def print_data
+    p @customer_data
+    p @account_data
+  end
+
 end
 
 class Customer < Bank
   attr_accessor :customer_number, :name, :social, :address
-  def initialize(customer_number, name, social, address)
-    @customer_number = customer_number
-    @name = name
-    @social = social
-    @address = address
-    @cust_info = []
-  end
+  #def initialize(customer_number, name, social, address)
+  #  @customer_number = customer_number
+  #  @name = name
+  #  @social = social
+  #  @address = address
+  #  @cust_info = []
+  #end
   def cust_info
     puts "#{@customer_number}, #{@name}, #{@social}, #{@address}"
   end
@@ -171,6 +175,10 @@ class Transaction < Account
   end
 end
 
+my_transition = Transaction.new
+my_transition.get_customer_data
+my_transition.get_account_data
+my_transition.print_data
 
 
 #my_account = Account.new
