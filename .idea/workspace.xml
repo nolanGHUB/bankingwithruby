@@ -1,4 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e291c51c-6f9a-403e-9306-b7c122f6fa2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bankingwithruby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bankingwithruby.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank.rb" beforeDir="false" afterPath="$PROJECT_DIR$/bank.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XAHEXhzJLGSC9zadBNS7mjcBEi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="bank" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="bankingwithruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bank.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.bank" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e291c51c-6f9a-403e-9306-b7c122f6fa2b" name="Default Changelist" comment="" />
+      <created>1580487216934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580487216934</updated>
+      <workItem from="1580487218266" duration="88000" />
+      <workItem from="1580487307157" duration="2341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1580490468758">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1580490468758" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center" timestamp="1580490468757">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1580490468757" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left" timestamp="1580490468756">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1580490468756" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right" timestamp="1580490468757">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1580490468757" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bankingwithruby@bank.rcov" NAME="bank Coverage Results" MODIFIED="1580490468723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bankingwithruby" />
+  </component>
 </project>
